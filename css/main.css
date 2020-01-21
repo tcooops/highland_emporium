@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.hidden {
+	display: none;
+}
+
+.mainContainer {
+	margin: auto 0;
+	width: 980px;
+}
+
+#mainHeader {
+	
+}
