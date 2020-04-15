@@ -1,92 +1,74 @@
-<!DOCTYPE html>
++<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Highland Emporium</title>
-	<link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
-	<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
-	<!--[if lt IE 9]>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Highland Emporium</title>
+    <link rel="stylesheet" href="https://use.typekit.net/njc8hdi.css">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css" >  
+<!--[if lt IE 9]>
 <script src="js/html5shiv.js"></script>
 <![end if] -->
 </head>
 <body>
-	<main>
-	<h1 class="hidden">Highland Emporium</h1>
-		<div class="main-container">
-			<header>
-				<h2 class="hidden">Main Header</h2>
-				<div class="logo-header">
-					<img src="images/logo.jpg" alt="Logo" height="105" width="200">
-				</div>
-				<div class="nav-wrapper">
-					<h2 class="hidden">Main Navigation</h2>
-						<ul class="main-nav">
-							<li class="selected"><a href="#">HOME</a></li>
-							<li><a href="about.html">ABOUT</a></li>
-							<li><a href="products.html">PRODUCTS</a></li>
-							<li><a href="contact.html">CONTACT</a></li>
-						</ul>
-				</div>
-			</header>
-		<div class="hero">
-			<img src="" alt="">
-		</div>
-		<section class="main-heading">
-			<div>
-				<h2>Welcome to Highland Emporium</h2>
-				<p>Nice tagline here... maybe something about custom orders</p>
-				<a href="contact.html"><button>Get In Touch</button></a>
-			</div>
-		</section>
-		<section>
-			<h2 class="hidden">Catgeories</h2>
-			<ul class="index-categories">
-				<li><a href="instruments.html">
-						<img src="images/placeholder_circle.png" alt="placeholder" height="200" width="200">Bagpipes & Drums</a> </li>
-				<li><a href="clothing.html"><img src="images/placeholder_circle.png" alt="placeholder" height="200" width="200">Highland Wear</a></li>
-				<li><a href="regimental.html"><img src="images/placeholder_circle.png" alt="placeholder" height="200" width="200">Regimental</a></li>
-			</ul>
-		</section>
-		<!-- <section></section> RESERVED FOR EXTRA CONTENT -->
-		<section>
-			<h2>Find Us</h2>
-			<div id="index-contact">
-				<ul id="index-location">
-					<li>Address:</li>
-					<li>Phone:</li>
-					<li>Email:</li>
-				</ul>
-				<ul id="index-hours">
-					<li>S:</li>
-					<li>M:</li>
-					<li>T:</li>
-					<li>W:</li>
-					<li>T:</li>
-					<li>F:</li>
-					<li>S:</li>
-				</ul>
-			</div>
-			<div class="index-map">
-				<!-- MAP HERE -->
-			</div>
-		</section>
-		<footer>
-			<h2 class="hidden">Footer</h2>
-				<div class="logo-footer">
-					<img src="images/logo.jpg" alt="logo" height="105" width="200">
-				</div>
-				<div class="nav-wrapper">
-					<h2 class="hidden">Footer Navigation</h2>
-						<ul class="footer-nav">
-							<li class="selected"><a href="#">HOME</a></li>
-							<li><a href="about.html">ABOUT</a></li>
-							<li><a href="products.html">PRODUCTS</a></li>
-							<li><a href="contact.html">CONTACT</a></li>
-						</ul>
-				</div>
-		</footer>
-<!-- container close --></div>
-	</main>
+<main>
+  <h1 class="hidden">Highland Emporium</h1>
+  <div class="main-container">
+    <div class="sub-container">
+      <header id="main-header">
+        <nav id="main-nav">
+          <h2 class="hidden">Main Nav</h2>
+            <button id="button"></button>
+              <div id="burger-con">
+                <ul id="burger-menu">
+                    <li><a href="index.html" class="nav-selected">home</a></li>
+                    <li>
+                      <div class="dropdown">
+                        <a href="products.html" class="dropbtn">products</a>
+                        <div class="dropdown-content">
+                          <a href="tartans.html">tartans</a>
+                          <a href="highlandwear.html">highland wear</a>
+                          <a href="regimental.html">regimental</a>
+                          <a href="instruments.html">instruments</a>
+                        </div>
+                      </div>
+                    </li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="contact.html">reach us</a></li>
+                </ul>
+              </div>
+        </nav>
+        <div id="logo-con"> 
+          <img img src="images/logo_header.jpg" alt="main logo" id="header-logo">
+        </div>
+      </header>
+
+      <div id="hero">
+        <section class="container">
+          <div id="info-frost"> <!-- start info frost -->
+            <h2></h2>
+            <h3>LUSH GREENS AND BREATHTAKING SCENERY</h3>
+            <p>Wollaston Golf Club offers you access to one of SOuth Western Ontario's most prestegious golf courses. 
+            Rated top 10 in Ontario by Golf Digest, our course has something to offer golfers of all skill levels.</p>
+            <a href="#" id="book-now">BOOK NOW</a>
+          </div> <!-- end info frost -->
+        </section>
+</div>
+<!-- end header & hero, begin body of index -->
+    <section>
+      
+    </section>
+<!-- begin footer -->
+    <footer id="main-footer">
+      <div id="footer-logo">
+        <a href="index.html">
+          <img src="images/footer_logo.png" alt="footer logo">
+        </a>
+      </div>
+      
+    </footer>
 <script src="js/main.js"></script>
 </body>
 </html>
