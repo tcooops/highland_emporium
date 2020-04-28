@@ -1,4 +1,4 @@
-+<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Highland Emporium</title>
     <link rel="stylesheet" href="https://use.typekit.net/njc8hdi.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bellota+Text&family=Julius+Sans+One&display=swap" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css" >  
 <!--[if lt IE 9]>
@@ -17,7 +18,7 @@
   <h1 class="hidden">Highland Emporium</h1>
   <div class="main-container">
     <div class="sub-container">
-      <header id="main-header">
+      <header id="main-header" class="center">
         <nav id="main-nav">
           <h2 class="hidden">Main Nav</h2>
             <button id="button"></button>
@@ -41,48 +42,91 @@
               </div>
         </nav>
         <div id="logo-con"> 
-          <img img src="images/logo_header.jpg" alt="main logo" id="header-logo">
+          <img src="images/logo_grey.png" alt="Main Logo">
         </div>
       </header>
+    </div>
 <!-- start hero image & info overlay -->
-      <div id="hero">
+      <div id="hero" class="full-width">
         <section class="container">
-          <div id="info-frost" class="full-width"> <!-- start info frost -->
+          <div id="info-frost"> <!-- start info frost -->
             <h2>Welcome to Highland Emporium</h2>
-            <h3>Offering the best in Highland Wear since 2000</h3>
-            <p>Highland Emporium uses only the highest quality materials. We ensure your satisfaction with every order and pride ourselves in our work everyday.</p>
-            <a href="contact.html" id="hero-button">INQUIRE NOW</a>
+            <p>At Highland Emporium we guarantee only the highest quality materials are used for our products, we ensure your satisfaction with every order, and we pride ourselves in our work everyday.<br> <br> Whether you have questions about our products or pricing, or just want to say hello, feel free to get in touch!</p>
+            <a href="contact.html" id="hero-button">CONTACT US!</a>
           </div> <!-- end info frost -->
         </section>
       </div>
 <!-- end header & hero, begin body of index -->
       <div class="center">
         <section class="sub-container"> <!-- start featured items -->
-          <h2>Features</h2>
+          <h2>Our Products</h2>
             <div id="featured-grid">
               <div>
                 <img src="images/placeholder.png" alt="">
-                <h4><a href="#">Feature 1</a></h4>
+                <h4><a href="tartans.html">Tartans</a></h4>
               </div>
               <div>
                 <img src="images/placeholder.png" alt="">
-                <h4><a href="#">Feature 2</a></h4>
+                <h4><a href="highlandwear.html">Highland Wear</a></h4>
               </div>
               <div>
                 <img src="images/placeholder.png" alt="">
-                <h4><a href="#">Feature 3</a></h4>
+                <h4><a href="regimental.html">Regimental</a></h4>
+              </div>
+              <div>
+                <img src="images/placeholder.png" alt="">
+                <h4><a href="instruments.html">Instruments</a></h4>
               </div>
             </div> <!-- end featured grid -->
         </section>
+      </div> <!-- close center -->
 <!-- begin footer -->
-    <footer id="main-footer">
-      <div id="footer-logo">
-        <a href="index.html">
-          <img src="images/footer_logo.png" alt="footer logo">
-        </a>
+    <footer>
+      <div class="footer-wrapper">
+      <div id="main-footer">
+        <div id="footer-logo">
+          <a href="index.html">
+            <img src="images/logo_white.png" alt="footer logo">
+          </a>
+        </div>
+        <div>
+          <h2>Explore</h2>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Tartans</a></li>
+            <li><a href="">Highland Wear</a></li>
+            <li><a href="">Regimental</a></li>
+            <li><a href="">Instruments</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Visit</h2>
+          <ul>
+            <li>123 road street</li>
+            <li>Hamilton, Ontario</li>
+            <li>A1A 1A1</li>
+            <li>289-921-1688</li>
+            <li>Send us a<a href="contact.html"> message</a></li>
+          </ul>
+        </div>
+        <div >
+          <h2>Connect</h2>
+          <ul id="sm">
+            <li><a href=""><img src="images/facebook.png" alt="Facebook"></a></li>
+            <li><a href=""><img src="images/twitter.png" alt="Twitter"></a></li>
+            <li><a href=""><img src="images/li.png" alt="LinkedIn"></a></li>
+            <li><a href=""><img src="images/instagram.png" alt="Instagram"></a></li>
+          </ul>
+        </div>
       </div>
-      
     </footer>
+    <div class="center" id="copyright">
+      <p>Copyright 2020<br>
+      Site by <a href="">Tessa Cooper</a></p>
+    </div>
 </div> <!-- end main container -->
 </main>
 <script src="js/main.js"></script>
