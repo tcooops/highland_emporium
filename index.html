@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Highland Emporium</title>
+    <title>Highland Emporium - Home</title>
     <link rel="stylesheet" href="https://use.typekit.net/njc8hdi.css">
     <link href="https://fonts.googleapis.com/css2?family=Bellota+Text&family=Julius+Sans+One&display=swap" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet" type="text/css">
@@ -12,10 +12,11 @@
 <!--[if lt IE 9]>
 <script src="js/html5shiv.js"></script>
 <![end if] -->
+<script src="https://kit.fontawesome.com/e1d17eff85.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <main>
-  <h1 class="hidden">Highland Emporium</h1>
+  <h1 class="hidden">Highland Emporium - Home</h1>
   <div class="main-container">
     <div class="sub-container">
       <header id="main-header" class="center">
@@ -27,31 +28,37 @@
                     <li><a href="index.html" class="nav-selected">home</a></li>
                     <li>
                       <div class="dropdown">
-                        <a href="products.html" class="dropbtn">products</a>
+                        <a href="products.html" class="dropbtn">highland wear</a>
                         <div class="dropdown-content">
-                          <a href="tartans.html">tartans</a>
-                          <a href="highlandwear.html">highland wear</a>
-                          <a href="regimental.html">regimental</a>
-                          <a href="instruments.html">instruments</a>
+                          <a class="indent" href="accoutrements.html">accoutrements</a>
+                          <a class="indent" href="footwear.html">footwear</a>
+                          <a class="indent" href="headdresses.html">headdresses</a>
+                          <a class="indent" href="jackets.html">Jackets, Waistcoats & Tunics</a>
+                          <a class="indent" href="leather.html">leather goods</a>
+                          <a class="indent" href="legwear.html">legwear</a>
+                          <a class="indent" href="sporrans.html">sporrans</a>
+                          <a class="indent" href="tartans.html">tartans & wear</a>
                         </div>
                       </div>
                     </li>
+                    <li><a href="instruments.html">bagpipes & accessories</a></li>
                     <li><a href="about.html">about</a></li>
                     <li><a href="contact.html">reach us</a></li>
                 </ul>
               </div>
         </nav>
-        <div id="logo-con"> 
-          <img src="images/logo_grey.png" alt="Main Logo">
+        <div id="logo-con" class="header-logo"> 
+          <a href="index.html"><img src="images/logo_grey.svg" alt="Main Logo" height="98" width="200" ></a>
         </div>
       </header>
     </div>
 <!-- start hero image & info overlay -->
-      <div id="hero" class="full-width">
+      <div id="about-hero" class="full-width">
         <section class="container">
           <div id="info-frost"> <!-- start info frost -->
             <h2>Welcome to Highland Emporium</h2>
-            <p>At Highland Emporium we guarantee only the highest quality materials are used for our products, we ensure your satisfaction with every order, and we pride ourselves in our work everyday.<br> <br> Whether you have questions about our products or pricing, or just want to say hello, feel free to get in touch!</p>
+            <!-- <p>“a ’toirt urram do dhualchas tro chàileachd”<br>“honouring tradition through quality”.</p><br> -->
+            <p>Whether you require classic Highland dress, or a more cutting edge contemporary look, at Highland Emporium, alongside our unrivalled level of service, we are experts in both.<br><br>If you have any questions about our products or pricing, or just want to say hello, feel free to get in touch!</p>
             <a href="contact.html" id="hero-button">CONTACT US!</a>
           </div> <!-- end info frost -->
         </section>
@@ -59,24 +66,80 @@
 <!-- end header & hero, begin body of index -->
       <div class="center">
         <section class="sub-container"> <!-- start featured items -->
-          <h2>Our Products</h2>
-            <div id="featured-grid">
-              <div>
-                <img src="images/placeholder.png" alt="">
-                <h4><a href="tartans.html">Tartans</a></h4>
-              </div>
-              <div>
-                <img src="images/placeholder.png" alt="">
-                <h4><a href="highlandwear.html">Highland Wear</a></h4>
-              </div>
-              <div>
-                <img src="images/placeholder.png" alt="">
-                <h4><a href="regimental.html">Regimental</a></h4>
-              </div>
-              <div>
-                <img src="images/placeholder.png" alt="">
-                <h4><a href="instruments.html">Instruments</a></h4>
-              </div>
+          <h2 class="hr"><span>Our Products</span></h2>
+              <div class="index-featured">
+                <div class="view view-first">
+                    <img src="images/accoutrements_index.png" alt="accoutrements"/>
+                    <div class="mask">
+                        <h2>Accoutrements</h2>
+                        <p>Looking for accoutrements? You've come to the right place. Browse our selection featuring a wide variety of colours and different styles.</p>
+                        <a href="accoutrements.html" class="info featured-btn">Find out more</a>
+                    </div>
+                </div>
+                <div class="view view-first">
+                    <img src="images/footwear_index.png" alt="footwear"/>
+                    <div class="mask">
+                        <h2>Footwear</h2>
+                        <p>Whether you seek a set of regimental brogues, ghillie brogues, or even acessories, Highland Emporium is equipped to ensure you find the footwear you need.</p>
+                        <a href="footwear.html" class="info featured-btn">Find out more</a>
+                    </div>
+                </div>  
+                <div class="view view-first">
+                    <img src="images/headdresses_index.png" alt="headdresses"/>
+                    <div class="mask">
+                        <h2>Headdresses</h2>
+                        <p>Highland Emporium's selection of headdresses includes Black Watch and Diced Balmoral, Diced and Plain Glengarry, and feather bonnets.</p>
+                        <a href="headdresses.html" class="info featured-btn">Find out more</a>
+                    </div>
+                </div>
+                <div class="view view-first">
+                    <img src="images/instruments_index.png" alt="instruments"/>
+                    <div class="mask">
+                        <h2>Bagpipes & Accessories</h2>
+                        <p>Find a selection of great Highland bagpipes as well as all the accessories you may need. We also supply drum accessories.</p>
+                        <a href="instruments.html" class="info featured-btn">Find out more</a>
+                    </div>
+                </div>  
+                <div class="view view-first">
+                    <img src="images/index_jackets.png"  alt="jackets"/>
+                    <div class="mask">
+                        <h2>Jackets</h2>
+                        <p>This beautiful selection of jackets come handmade with impeccible detail in only the highest of quality. View our different cuff and epaulette styles as well.</p>
+                        <a href="jackets.html" class="info featured-btn">Find out more</a>
+                    </div>
+                </div>  
+                <div class="view view-first">
+                    <img src="images/img_coming_soon.png" alt="img coming soon"/>
+                    <div class="mask">
+                        <h2>Leather Goods</h2>
+                        <p>Page under construction</p>
+                        <a href="leather.html" class="info featured-btn">Find out more</a>
+                    </div>
+                </div> 
+                <div class="view view-first">
+                    <img src="images/legwear_index.png"  alt="legwear"/>
+                    <div class="mask">
+                        <h2>Legwear</h2>
+                        <p>View our selection of Highland legwear that includes everything from full diced hose to Highland spats and even garter flashes.</p>
+                        <a href="legwear.html" class="info featured-btn">Find out more</a>
+                    </div>
+                </div> 
+                <div class="view view-first">
+                    <img src="images/sporrans_index.png" alt="sporrans"/>
+                    <div class="mask">
+                        <h2>Sporrans</h2>
+                        <p>Highland Emporium offers a vast selection of traditional hand made sporrans, made with care, detail and attention in Scotland by skilled craftsmen & women.</p>
+                        <a href="sporrans.html" class="info featured-btn">Find out more</a>
+                    </div>
+                </div> 
+                <div class="view view-first">
+                    <img src="images/tartans_index.png" alt="tartans"/>
+                    <div class="mask">
+                        <h2>Tartan Wear & Tartans</h2>
+                        <p>Our tartans are made of the highest quality 100% pure new wool which can be tailored into any item of Highland dress you desire. Browse below for our full selection of tartans.</p>
+                        <a href="tartans.html" class="info featured-btn">Find out more</a>
+                    </div>
+                </div>
             </div> <!-- end featured grid -->
         </section>
       </div> <!-- close center -->
@@ -90,42 +153,54 @@
           </a>
         </div>
         <div>
-          <h2>Explore</h2>
+          <h2>Contact</h2>
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Products</a></li>
-            <li><a href="">Tartans</a></li>
-            <li><a href="">Highland Wear</a></li>
-            <li><a href="">Regimental</a></li>
-            <li><a href="">Instruments</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Contact Us</a></li>
+            <li>289-921-1688</li>
+            <li>Send us a<a href="contact.html"> message</a></li>
           </ul>
         </div>
         <div>
-          <h2>Visit</h2>
-          <ul>
-            <li>123 road street</li>
-            <li>Hamilton, Ontario</li>
-            <li>A1A 1A1</li>
-            <li>289-921-1688</li>
-            <li>Send us a<a href="contact.html"> message</a></li>
+          <h2>Explore</h2>
+          <ul id="explore">
+            <div>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="highlandwear.html">Highland Wear</a></li>
+              <li><a href="footwear.html">Footwear</a></li>
+              <li><a href="headdresses.html">Headdresses</a></li>
+            </div>
+            <div>
+              <li><a href="jackets.html">Jackets, Waistcoats & Tunics</a></li>
+              <li><a href="leather.html"></a>Leather Goods</li>
+              <li><a href="legwear.html">Legwear</a></li>
+              <li><a href="sporrans.html">Sporrans</a></li>
+              <li><a href="tartans.html">Tartans & Wear</a></li>
+            </div>
+            <div>
+              <li><a href="instruments.html">Bagpipes & Accessories</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="attributes.html">Image attributes</a></li>
+          </div>
           </ul>
         </div>
         <div >
           <h2>Connect</h2>
           <ul id="sm">
-            <li><a href=""><img src="images/facebook.png" alt="Facebook"></a></li>
-            <li><a href=""><img src="images/twitter.png" alt="Twitter"></a></li>
-            <li><a href=""><img src="images/li.png" alt="LinkedIn"></a></li>
-            <li><a href=""><img src="images/instagram.png" alt="Instagram"></a></li>
+            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+<!--        <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li> -->
           </ul>
         </div>
       </div>
+    </div>
+    <div>
+      <a href="tartans.html" id="top" class="center"><i class="fas fa-arrow-up"></i></a>
+    </div>
     </footer>
     <div class="center" id="copyright">
-      <p>Copyright 2020<br>
-      Site by <a href="">Tessa Cooper</a></p>
+      <p>&copy;2020<br>
+      Site designed and coded by <a href="http://www.sitesbytessa.com">Tessa</a></p><br>
     </div>
 </div> <!-- end main container -->
 </main>
