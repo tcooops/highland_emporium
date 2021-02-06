@@ -1,0 +1,19 @@
+#accoutrements-grid {
+	width: 100%;
+	max-width: 1920px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);  
+	grid-gap: 2em;
+	list-style-type: none;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	align-content: center;
+}
+
+#accoutrements-grid img:hover {
+	opacity: 0.8;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
