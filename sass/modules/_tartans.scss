@@ -1,0 +1,171 @@
+
+#tartan-selector img:hover {
+	opacity: 0.8;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+
+.products-featured div {
+	width: 300px;
+}
+
+.products-featured img {
+	max-width: 300px;
+}
+
+
+/* tartans */
+
+#tartans-hero {
+	background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../images/hero_1_tartans.png');
+    height: 600px;
+    margin-top: 20px;
+}
+	
+#info-frost-tartans { /* this is the content over the hero */
+	max-width: 40em; /* 640px */
+	display: inline-flex;
+	flex-direction: column;
+	background-color: transparent;
+	justify-content: space-evenly;
+	margin: 125px 0 0 175px;
+}
+
+#info-frost-tartans h2 {
+	font-size: 2.3em;
+	margin-left: 30px;
+	font-family: buena-park-jf, serif;
+}
+
+#info-frost-tartans h3 {
+	margin-left: 30px;
+}
+
+#info-frost-tartans p {
+	font-size: 1.2em; 
+	margin-left: 30px;
+}
+
+#tartan-selector {
+	width: 100%;
+	max-width: 1920px;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);  
+	grid-gap: 2em;
+	list-style-type: none;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	align-content: center;
+}
+
+#tartan-selector img:hover {
+	opacity: 0.8;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.tartan-wear {
+	height: 300px;
+	width: 300px;
+	border: none;
+}
+
+.tartan-wear img {
+	border-radius: 10px;
+}
+
+#tartan-items p {
+	font-size: 1.3em;
+}
+
+#tartan-selector p {
+	width: 20%;
+}
+
+#tartan-items {
+	filter: drop-shadow(3px 3px 5px rgba(0,0,0,.2));
+}
+
+#tartan-selector img {
+	filter: drop-shadow(3px 3px 5px rgba(0,0,0,.5));
+	border-radius: 10px;
+}
+
+#tartan-selector h3 {
+	font-family: 'Bellota Text', sans-serif;
+}
+
+#search-icon {
+	height: 30px;
+	width: 30px;
+	margin-left: 600px;
+	margin-top: 5px;
+	margin-right: 5px;
+	padding: 3px;
+}
+
+.search {
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	background-color: #fff;
+	border-radius: 25px;
+	box-shadow: 0 2px 6px rgba(0,0,0,.3);
+	overflow: hidden;
+	outline: none;
+	border: none;
+	color: rgba(28, 99, 60, 1);
+	padding: 5px 0 5px 10px;
+}
+
+
+/* Style the tab */
+
+.tab {
+	display: flex;
+	flex-direction: row;
+	color: #333;
+	padding: 10px;
+	background-color: #f1f1f1;
+	margin: 0 auto;
+}
+
+/* Style the buttons inside the tab */
+
+.tab button {
+	font-family: 'Bellota Text', sans-serif;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 40px;
+  transition: 0.3s;
+  font-size: 1em;
+  float: left;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #e6e6e6;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  color: rgba(28, 99, 60, 1);
+  background-color: #e6e6e6;
+  font-size: 1.2em;
+}
+
+/* Style the tab content */
+.tabcontent {
+	background-color: #e6e6e6;
+	display: none;
+	padding: 6px 12px;
+}

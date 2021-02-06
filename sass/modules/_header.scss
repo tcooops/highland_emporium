@@ -1,0 +1,101 @@
+#main-header { /* important */
+	height: 100px;
+	width: 100%;
+	background-image: url("../images/background.png");
+	background-repeat: repeat;
+	background-color: #fff;
+}
+
+#main-nav { /* important */
+	display: flex;
+	flex-direction: column;
+}
+
+#main-nav button { /* important */
+	margin: 0 auto;
+}
+
+.nav-selected {
+	border-bottom: 0.1875em /* 3px */ solid #fff;
+	font-weight: 600;
+	font-style: italic;
+
+}
+
+#burger-con { /* important */
+	display: none; /* hide initially */
+	margin-top: 1.875em; 
+}
+
+#burger-con.slide-toggle { /* important */ 
+	display: inline-block;
+	z-index: 100;
+	background-color: rgba(255, 255, 255, .95);
+	left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	right: 50%;
+	width: 100vw;
+}
+
+#main-nav button { /* important */
+	background: url(../images/burger.svg) center no-repeat;
+	border: 0px;
+	width: 1.25em;
+	height: 1.25em;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+#main-nav button.expanded {  /* important */
+	margin-bottom: 1.25em;
+	transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+}
+
+#main-nav li a { /* what shows in burger menu*/
+	font-family: 'Bellota Text', sans-serif;
+	font-style: normal;
+	display: inline-block;
+	color: rgba(28, 99, 60, 1);
+	text-align: center;
+	font-size: 1.5em;
+	margin: 8px;
+	text-transform: uppercase;
+}
+
+#main-nav ul {
+	list-style-type: none;
+}
+
+.indent {
+	font-size: 1.15em !important;
+}
+
+/* logo */
+
+#header-logo {
+	display: inline-block;
+	max-width: 175px;
+	max-height: 86px;
+	width: 175px;
+	z-index: 100;
+}
+
+.dropdown-content {
+	display: flex;
+	flex-direction: column;
+	padding: 5px 0 5px 0;
+}
+
+.main-nav a:active {
+	color: blue;
+}
