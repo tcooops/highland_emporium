@@ -1,0 +1,26 @@
+{
+  "name": "highlandemporium",
+  "version": "1.0.0",
+  "description": "highlandemporium.com",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon app",
+    "start-ui": "browser-sync start --proxy 'localhost:5000' --files 'index.html' 'public' ",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcooops/highland_emporium.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcooops/highland_emporium/issues"
+  },
+  "homepage": "https://github.com/tcooops/highland_emporium#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
