@@ -65,11 +65,29 @@
       <section class="subsection" id="contact-info">
         <h2 class="hidden">Contact Us</h2>
         <p>Whether you're looking to inquire about a product, pricing, or want to say hi, you've come to the right place! All your personal information will be kept confidential.</p>
-        <p>Please email <span class="contact-span">info@highlandemporium.com</span> or call <span class="contact-span">289-921-1688</span> for any of your needs.</p>
-        <p>Thank you!</p>
-<!--    <div>
-          <iframe height="659" title="Embedded Wufoo Form" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; background-color: #fff; padding: 10px; height: 1100px; margin: 20px" src="https://tessacooper.wufoo.com/embed/m1q8tnle0jfevy9/"> <a href="https://tessacooper.wufoo.com/forms/m1q8tnle0jfevy9/">We'd love to help!</a> </iframe>
-        </div> -->
+        <div id="form-con">
+          <form action="/includes/mail/send.php" method="POST" id="mail-form" class="form">
+            <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname" placeholder="first name" class="input" required>
+
+            <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" placeholder="last name" class="input" required>
+
+            <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="email@example.com" class="input" required>
+
+            <label for="phone">Phone</label>
+                <input type="phone" id="phone" name="phone" placeholder="123-456-7890" class="input" required>
+
+            <label for="message">Message</label>
+                <textarea name="message" id="message" cols="10" rows="10"  class="input" placeholder="How can we help you?" required></textarea>
+
+            <div class="submit-wrapper">
+                <button type="submit" class="submit">Submit</button>
+            </div>
+            
+          </form>  
+        </div>
       </section>
     </div> <!-- end center -->
 <!-- begin footer -->

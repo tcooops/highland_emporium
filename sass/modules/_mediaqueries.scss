@@ -20,7 +20,7 @@
 
 	#info-frost h2 {
 	 	margin-left: 10px;
-	 	font-family: buena-park-jf, serif;
+	 	font-family: $header;
 	}
 
 	#info-frost h3 {
@@ -32,13 +32,13 @@
 	}
 
 	#hero-button { /* the call to action button */
-		font-family: 'Bellota Text', sans-serif; 
+		font-family: $body; 
 		font-weight: bold;
 		display: block;
 		width: 175px;
 		height: 75px;
 		padding-top: 27px;
-		color: #fff;
+		color: $white;
 		text-align: center;
 		text-decoration: none;
 		font-size: 1.2em;
@@ -48,7 +48,7 @@
 		align-self: flex-start;
 		margin-left: 27px;
 		margin-top: 5px;
-		box-shadow: 0 2px 6px rgba(0,0,0,.3);
+		//box-shadow: 0 2px 6px rgba(0,0,0,.3);
 		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffaf4b+0,ff920a+100;Orange+3D+%231 */
 		background: #ffaf4b; /* Old browsers */
 		background: -moz-linear-gradient(top,  #ffaf4b 0%, #ff920a 100%); /* FF3.6-15 */
@@ -92,7 +92,7 @@
 		display: inline-grid;
 		grid-template-columns: repeat(2, 1fr); 
 		grid-gap: 8px;
-		color: #333;
+		color: $black;
 	}
 
 
@@ -242,35 +242,25 @@
 		display: inline-grid;
 		grid-template-columns: repeat(1, 1fr) !important;  
 		grid-gap: 1em;
-		color: #333;
+		color: $black;
 		justify-items: center;
 		height: 100%;
 		margin-bottom: 20px;
 		margin-top: 20px;
 		font-family: 'Bellota Text', sans-serif;
-		filter: drop-shadow(3px 3px 5px rgba(0,0,0,.2));
+		//filter: drop-shadow(3px 3px 5px rgba(0,0,0,.2));
 	}
 
 	.featured-btn {
 		padding-top: 4px !important;
-		color: #fff;
+		color: $white;
 		display: inline-block;
 		height: 30px !important;
 		width: 125px;
 		font-size: 1em;
-		box-shadow: 0 2px 6px rgba(0,0,0,.3);
+		//box-shadow: 0 2px 6px rgba(0,0,0,.3);
 		border-radius: 15px;
 		margin-bottom: 30px;
-		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffaf4b+0,ff920a+100;Orange+3D+%231 */
-		background: #ffaf4b; /* Old browsers */
-		background: -moz-linear-gradient(top,  #ffaf4b 0%, #ff920a 100%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(top,  #ffaf4b 0%,#ff920a 100%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to bottom,  #ffaf4b 0%,#ff920a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a',GradientType=0 ); /* IE6-9 */
-		-webkit-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-		-moz-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-		-o-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-		box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
 	}
 
 
@@ -302,7 +292,7 @@
 		width: 300px;
 		border-radius: 100%;
 		border: none;
-		background-color: #cfcfcf;
+		background-color: $grey;
 		-webkit-box-shadow: 1px 2px 8px 1px rgba(190, 190, 190, 0.5);
 		-moz-box-shadow: 1px 2px 8px 1px rgba(190, 190, 190, 0.5);
 		-o-box-shadow: 1px 2px 8px 1px rgba(190, 190, 190, 0.5);
@@ -316,7 +306,7 @@
 		display: inline-grid;
 		grid-template-columns: repeat(1, 1fr);  
 		grid-gap: 1em;
-		color: #333;
+		color: $black;
 		padding: 10px;
 		justify-items: center;
 		height: 100%;
@@ -327,7 +317,7 @@
 	}
 
 	footer { /* this should keep the footer at the bottom */
-		background-color: rgba(28, 99, 60,1);
+		background-color: $green;
 		height: 300px;
 		margin: 0 auto;
 		padding-bottom: 20px;
@@ -479,18 +469,18 @@
 		display: inline-grid;
 		grid-template-columns: repeat(2, 1fr);  
 		grid-gap: 1em;
-		color: #333;
+		color: $black;
 		justify-items: center;
 		height: 100%;
 		margin-bottom: 20px;
 		margin-top: 20px;
-		font-family: 'Bellota Text', sans-serif;
-		filter: drop-shadow(3px 3px 5px rgba(0,0,0,.2));
+		font-family: $body;
+		//filter: drop-shadow(3px 3px 5px rgba(0,0,0,.2));
 	}
 
 	.featured-btn {
 		padding-top: 8px;
-		color: #fff;
+		color: $white;
 		display: inline-block;
 		height: 40px;
 		width: 125px;
@@ -498,16 +488,6 @@
 		box-shadow: 0 2px 6px rgba(0,0,0,.3);
 		border-radius: 15px;
 		margin-bottom: 30px;
-		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffaf4b+0,ff920a+100;Orange+3D+%231 */
-		background: #ffaf4b; /* Old browsers */
-		background: -moz-linear-gradient(top,  #ffaf4b 0%, #ff920a 100%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(top,  #ffaf4b 0%,#ff920a 100%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to bottom,  #ffaf4b 0%,#ff920a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a',GradientType=0 ); /* IE6-9 */
-		-webkit-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-		-moz-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-		-o-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-		box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
 	}
 
 	/* about */ 
@@ -540,42 +520,20 @@
 	}
 
 	#about-button { /* the call to action button */
-		font-family: 'Bellota Text', sans-serif; 
+		font-family: $body; 
 		display: inline-block;
 		width: 175px;
 		height: 75px;
 		padding-top: 27px;
-		color: #fff;
+		color: $white;
 		text-align: center;
 		text-decoration: none;
 		font-size: 1.2em;
 		line-height: 1em;
 		border-radius: 15px;
 		margin-bottom: 30px;
-		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffaf4b+0,ff920a+100;Orange+3D+%231 */
-		background: #ffaf4b; /* Old browsers */
-		background: -moz-linear-gradient(top,  #ffaf4b 0%, #ff920a 100%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(top,  #ffaf4b 0%,#ff920a 100%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to bottom,  #ffaf4b 0%,#ff920a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a',GradientType=0 ); /* IE6-9 */
-		-webkit-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-		-moz-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-		-o-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-		box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
 	}
 
-	#about-button:hover {
-		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff920a+0,ffaf4b+100 */
-		background: #ff920a; /* Old browsers */
-		background: -moz-linear-gradient(top,  #ff920a 0%, #ffaf4b 100%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(top,  #ff920a 0%,#ffaf4b 100%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to bottom,  #ff920a 0%,#ffaf4b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff920a', endColorstr='#ffaf4b',GradientType=0 ); /* IE6-9 */
-		-webkit-transition: all .5s ease-in-out !important;
-		-moz-transition: all .5s ease-in-out !important;
-		-o-transition: all .5s ease-in-out !important;
-		transition: all .5s ease-in-out !important;
-	}
 
 	/* highland wear */ 
 
@@ -584,14 +542,14 @@
 		display: inline-grid;
 		grid-template-columns: repeat(2, 1fr);  
 		grid-gap: 1em;
-		color: #333;
+		color: $black;
 		padding: 10px;
 		justify-items: center;
 		height: 100%;
 		margin-bottom: 20px;
 		margin-top: 20px;
-		font-family: 'Bellota Text', sans-serif;
-		filter: drop-shadow(3px 3px 5px rgba(0,0,0,.2));
+		font-family: $body;
+		//filter: drop-shadow(3px 3px 5px rgba(0,0,0,.2));
 	}
 
 	/* tartans */
@@ -628,7 +586,7 @@
 		display: inline-grid;
 		grid-template-columns: repeat(2, 1fr); 
 		grid-gap: 8px;
-		color: #333;
+		color: $black;
 	}
 
 
@@ -649,14 +607,14 @@
 /* burger menu */
 
 	.nav-selected {
-		color: rgba(28, 99, 60, 1) !important;
+		color: $green !important;
 		text-transform: uppercase;
 		font-size: 1em;
-		border-bottom: 0.1875em /* 3px */ solid rgba(28, 99, 60, 1);
+		border-bottom: 0.1875em /* 3px */ solid $green;
 	}
 
 	#main-nav a:hover {
-	border-bottom: 0.1875em /* 3px */ solid rgba(28, 99, 60, 1) ;
+	border-bottom: 0.1875em /* 3px */ solid $green ;
 	cursor: pointer;
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
@@ -694,7 +652,7 @@
     
 	#main-nav li a { /* what shows in burger menu */
 		display: inline-block;
-		color: #333;
+		color: $black;
 		text-align: center;
 		font-size: 1em;
 	}
@@ -723,7 +681,7 @@
 	/* Style The Dropdown Button */
 
 	.dropbtn {
-	  color: white;
+	  color: $dropdown;
 	  padding: 1em;
 	  font-size: 1em;
 	  border: none;
@@ -740,7 +698,7 @@
 	.dropdown-content {
 	  display: none;
 	  position: absolute;
-	  background-color: #f9f9f9;
+	  background-color: $white;
 	  min-width: 160px;
 	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	  z-index: 100;
@@ -748,7 +706,7 @@
 
 	/* Links inside the dropdown */
 	.dropdown-content a {
-	  color: #333;
+	  color: $black;
 	  margin: 0 auto;
 	  text-decoration: none;
 	  display: inline-block;
@@ -758,7 +716,7 @@
 /* Show the dropdown menu on hover */
 	.dropdown:hover .dropdown-content {
 		width: 100px;
-		color: #333 !important;
+		color: $black!important;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -771,7 +729,7 @@
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
 	.dropdown:hover .dropbtn {
-		border-bottom: 0.1875em /* 3px */ solid rgba(28, 99, 60, 1) ;
+		border-bottom: 0.1875em /* 3px */ solid $green ;
 		cursor: pointer;
 		-webkit-transition: all .2s ease-in-out;
 		-moz-transition: all .2s ease-in-out;
@@ -780,7 +738,7 @@
 	}
 
 	.dropdown a:hover {
-		background-color: rgba(235, 235, 235,1);
+		background-color: $dropdown;
 		border: none!important;
 		border-radius: 5px;
 		cursor: pointer;
@@ -849,7 +807,7 @@
 
 	#info-frost h2 {
 	 	margin-left: 30px;
-	 	font-family: buena-park-jf, serif;
+	 	font-family: $header;
 	 	font-size: 2.3em;
 	}
 
@@ -867,12 +825,12 @@
 		display: inline-grid;
 		grid-template-columns: repeat(3, 1fr);  
 		grid-gap: 1em;
-		color: #333;
+		color: $black;
 		height: 100%;
 		margin-bottom: 20px;
 		margin-top: 20px;
-		font-family: 'Bellota Text', sans-serif;
-		filter: drop-shadow(3px 3px 5px rgba(0,0,0,.2));
+		font-family: $body;
+		//filter: drop-shadow(3px 3px 5px rgba(0,0,0,.2));
 	}
 
 	.index-featured img {
@@ -893,7 +851,7 @@
 	   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	   filter: alpha(opacity=0);
 	   opacity: 0;
-	   background-color: rgba(255, 146, 10, 0.6);
+	   background-color: $orange;
 	   -webkit-transition: all 0.4s ease-in-out;
 	   -moz-transition: all 0.4s ease-in-out;
 	   -o-transition: all 0.4s ease-in-out;
@@ -1020,7 +978,7 @@
 	.view h2 {
 		font-family: 'Bellota Text', sans-serif;
 	   text-transform: uppercase;
-	   color: #fff;
+	   color: $white;
 	   text-align: center;
 	   position: relative;
 	   font-size: 1.3em;
@@ -1034,7 +992,7 @@
 	   font-style: italic;
 	   font-size: 1em;
 	   position: relative;
-	   color: #fff;
+	   color: $white;
 	   padding: 10px 20px 20px;
 	   text-align: center;
 	}
@@ -1043,7 +1001,7 @@
 	   text-decoration: none;
 	   padding: 7px 14px;
 	   background: #000;
-	   color: #fff;
+	   color: $white;
 	   text-transform: uppercase;
 	   -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,.5);
 	   -moz-box-shadow: 3px 3px 5px rgba(0,0,0,.5);
@@ -1073,7 +1031,7 @@
 		display: block;
 		width: 200px;
 		height: 2px;
-		background: #333;
+		background: $black;
 		position: absolute;
 		left: 0;
 		top: 50%;
@@ -1084,7 +1042,7 @@
 		display: block;
 		width: 200px;
 		height: 2px;
-		background: #333;
+		background: $black;
 		position: absolute;
 		right: 0;
 		top: 50%;
@@ -1093,7 +1051,7 @@
 	/* index */
 
 	#featured-grid a:hover {
-		color: #1c633c;
+		color: $darkgreen;
 		opacity: .5;
 		-webkit-transition: all .5s ease-in-out;
 		-moz-transition: all .5s ease-in-out;
@@ -1117,11 +1075,11 @@
 		display: inline-grid;
 		grid-template-columns: repeat(4, 1fr); 
 		grid-gap: 1.25em;
-		color: #fff;
+		color: $white;
 	}
 
 	#featured-grid h3 {
-		color: #fff;
+		color: $white;
 	}
 
 	#feature-tartans {
@@ -1178,7 +1136,7 @@
 		display: grid;
 		grid-template-columns: repeat(4, 1fr); 
 		grid-gap: 8px;
-		color: #333;
+		color: $black;
 		padding-bottom: 80px;
 		justify-items: center;
 	}
@@ -1190,14 +1148,14 @@
 		display: inline-grid;
 		grid-template-columns: repeat(3, 1fr);  
 		grid-gap: 1em;
-		color: #333;
+		color: $black;
 		padding: 10px;
 		justify-items: center;
 		height: 100%;
 		margin-bottom: 20px;
 		margin-top: 20px;
-		font-family: 'Bellota Text', sans-serif;
-		filter: drop-shadow(3px 3px 5px rgba(0,0,0,.2));
+		font-family: $body;
+		//filter: drop-shadow(3px 3px 5px rgba(0,0,0,.2));
 	}
 
 	#tartan-selector {
@@ -1238,42 +1196,22 @@
 	}
 
 	#about-button { /* the call to action button */
-		font-family: 'Bellota Text', sans-serif; 
+		font-family: $body; 
 		display: inline-block;
 		width: 175px;
 		height: 75px;
 		padding-top: 27px;
-		color: #fff;
+		color: $white;
 		text-align: center;
 		text-decoration: none;
 		font-size: 1.2em;
 		line-height: 1em;
 		border-radius: 15px;
 		margin-bottom: 30px;
-		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffaf4b+0,ff920a+100;Orange+3D+%231 */
-		background: #ffaf4b; /* Old browsers */
-		background: -moz-linear-gradient(top,  #ffaf4b 0%, #ff920a 100%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(top,  #ffaf4b 0%,#ff920a 100%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to bottom,  #ffaf4b 0%,#ff920a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a',GradientType=0 ); /* IE6-9 */
-		-webkit-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-		-moz-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-		-o-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-		box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
 	}
 
-	#about-button:hover {
-		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff920a+0,ffaf4b+100 */
-		background: #ff920a; /* Old browsers */
-		background: -moz-linear-gradient(top,  #ff920a 0%, #ffaf4b 100%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(top,  #ff920a 0%,#ffaf4b 100%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to bottom,  #ff920a 0%,#ffaf4b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff920a', endColorstr='#ffaf4b',GradientType=0 ); /* IE6-9 */
-		-webkit-transition: all .5s ease-in-out !important;
-		-moz-transition: all .5s ease-in-out !important;
-		-o-transition: all .5s ease-in-out !important;
-		transition: all .5s ease-in-out !important;
-	}
+	/*#about-button:hover {
+	} */
 
 	.info-frost-secondary { /* this is the content over the hero */
 		max-width: 120em; /* 1920px */
@@ -1289,7 +1227,7 @@
 
 	.info-frost-secondary h2 {
 	 	margin-left: 30px;
-	 	font-family: buena-park-jf, serif;
+	 	font-family: $header;
 	 	font-size: 2.3em;
 	}
  
@@ -1354,7 +1292,7 @@
 /* footer */
 
 	footer { /* this should keep the footer at the bottom */
-		background-color: rgba(28, 99, 60,1);
+		background-color: $green;
 		height: 250px;
 		margin: 0 auto;
 		padding-bottom: 20px;
@@ -1367,19 +1305,19 @@
 		display: inline-grid;
 		grid-template-columns: repeat(4, 1fr);  
 		grid-gap: 1em;
-		color: white;
+		color: $white;
 		padding: 10px;
 		justify-items: center;
 	}
 
 	#main-footer h2 {
 		font-size: 1.1em;
-		font-family: 'Bellota Text', sans-serif;
+		font-family:  $body;
 	}
 
 	#main-footer p {
 		font-size: .85em;
-		font-family: 'Bellota Text', sans-serif;
+		font-family: $body;
 	}
 
 	#main-footer ul {
@@ -1388,7 +1326,7 @@
 	}
 
 	#main-footer a {
-		color: white;
+		color: $white;
 	}
 
 	#main-footexr a:hover {
@@ -1403,7 +1341,7 @@
 
 	#top {
 		font-size: .8em;
-		color: white;
+		color: $white;
 		display:block;
 	}
 
