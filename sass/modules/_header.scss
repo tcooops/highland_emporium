@@ -3,7 +3,7 @@
 	width: 100%;
 	background-image: url("../images/background.png");
 	background-repeat: repeat;
-	background-color: #fff;
+	background-color: $white;
 }
 
 #main-nav { /* important */
@@ -16,7 +16,7 @@
 }
 
 .nav-selected {
-	border-bottom: 0.1875em /* 3px */ solid #fff;
+	border-bottom: 0.1875em /* 3px */ solid $white;
 	font-weight: 600;
 	font-style: italic;
 
@@ -62,10 +62,10 @@
 }
 
 #main-nav li a { /* what shows in burger menu*/
-	font-family: 'Bellota Text', sans-serif;
+	font-family: $body;
 	font-style: normal;
 	display: inline-block;
-	color: rgba(28, 99, 60, 1);
+	color: $green;
 	text-align: center;
 	font-size: 1.5em;
 	margin: 8px;
