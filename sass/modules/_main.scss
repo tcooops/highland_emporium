@@ -80,10 +80,7 @@ h3, h4, h5, h6 {
 
 body {
 	font-family: $body;
-	font-weight: 400;
-	font-style: normal;
-	color: $black;
-	font-size: 16px; /* therefore, 1em = 16px */
+	font-size: 16px; 
 	margin: 0;
 	padding: 0;
 	height: 100%;
@@ -125,31 +122,72 @@ ul li {
 	grid-row: third-line / 4;
 }
 
-/* .box-shadow img {
-	filter: drop-shadow(3px 3px 5px rgba(0,0,0,.2));
-	-webkit-filter: drop-shadow(3px 3px 5px rgba(0,0,0,.2));
-} */
-
 .index-button {
 	button {
+		color: $orange;
+		margin-left: 30px;
 		margin-top: 1em;
 		border: none;
 		width: 100px;
 		height: 40px;
 		background-color: $orange;
-		color: white;
 		margin-bottom: 1em;
+		border-radius: 5px ;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-ms-border-radius: 5px;
+		-o-border-radius: 5px;	
+		a {
+			color: white!important;
+		}
 	}
 	button:hover {
 		background-color: $white;
-		color: $orange;
 		border: 1px solid orange;
+		color: $orange!important;
 		cursor: pointer;
 		-webkit-transition: all .3s ease-in-out;
 		-moz-transition: all .3s ease-in-out;
 		-o-transition: all .3s ease-in-out;
 		transition: all .3s ease-in-out;
 		-ms-transition: all .3s ease-in-out;
+		a:hover {
+			color: $orange!important;
+		}
+	}
+}
+
+.generic-button {
+	button {
+		color: $orange;
+		margin-top: 1em;
+		border: none;
+		width: 100px;
+		height: 40px;
+		background-color: $orange;
+		margin-bottom: 1em;
+		border-radius: 5px ;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-ms-border-radius: 5px;
+		-o-border-radius: 5px;	
+		a {
+			color: white!important;
+		}
+	}
+	button:hover {
+		background-color: $white;
+		border: 1px solid orange;
+		color: $orange!important;
+		cursor: pointer;
+		-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		-o-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+		a:hover {
+			color: $orange!important;
+		}
 	}
 }
 
