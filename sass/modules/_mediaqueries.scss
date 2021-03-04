@@ -19,51 +19,8 @@
 	}
 
 	#info-frost h2 {
-	 	margin-left: 10px;
 	 	font-family: $header;
 	}
-
-	#info-frost h3 {
-		margin-left: 10px;
-	}
-
-	#info-frost p {
-		margin-left: 10px;
-	}
-
-	#hero-button { /* the call to action button */
-		font-family: $body; 
-		font-weight: bold;
-		display: block;
-		width: 175px;
-		height: 75px;
-		padding-top: 27px;
-		color: $white;
-		text-align: center;
-		text-decoration: none;
-		font-size: 1.2em;
-		line-height: 1em;
-		border-radius: 15px;
-		margin-bottom: 20px;
-		align-self: flex-start;
-		margin-left: 27px;
-		margin-top: 5px;
-	}
-	/* about */
-
-
-	/* contact */
-
-	iframe {
-		width: 95% !important;
-		height: 1200px;
-		border-radius: 5%;
-		-webkit-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-		-moz-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-		-o-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-		box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-	}
-
 }
 
 @media screen and (max-width: 30em) { /* 480px */
@@ -87,29 +44,7 @@
 		grid-gap: 8px;
 		color: $black;
 	}
-
-
-	/*
-    #info-frost {
-      background: url('../images/golf_club2.png') right no-repeat rgba(255,255,255, 0.8);
-    } */
  }
-
-@media screen and (max-width: 38.75em) { /* 620px */
-
-
-/*
-    #info-frost h2 {
-      font-size: 2em;
-    }
-
-    #info-frost p {
-      font-size: 0.875em;
-      width: 60%; /*wherever this paragrah is sitting, it will only have a width of 60% at THIS SIZE 
-    } 
-*/
-
-}
 
 @media screen and (max-width: 40em) { /* 640px */
 	
@@ -217,19 +152,6 @@
 	    margin-top: 45px !important;
 	}
 
-
-	#info-frost { /* this is the content over the hero */
-		max-width: 40em; /* 640px */
-		display: inline-flex;
-		flex-direction: column;
-		background-color: transparent;
-		justify-content: space-evenly;
-		padding-right: 20px;
-		position: relative;
-		top: -50px;
-		left: -40px;
-	}
-
 	.index-featured {
 		width: 80%;
 		display: inline-grid;
@@ -283,14 +205,9 @@
 	#featured-grid img {
 		height: 300px;
 		width: 300px;
-		border-radius: 100%;
 		border: none;
 		background-color: $grey;
-		-webkit-box-shadow: 1px 2px 8px 1px rgba(190, 190, 190, 0.5);
-		-moz-box-shadow: 1px 2px 8px 1px rgba(190, 190, 190, 0.5);
-		-o-box-shadow: 1px 2px 8px 1px rgba(190, 190, 190, 0.5);
-		box-shadow: 1px 2px 8px 1px rgba(190, 190, 190, 0.5);
-	}
+}
 
 /* highland wear */
 
@@ -305,15 +222,7 @@
 		height: 100%;
 		margin-bottom: 20px;
 		margin-top: 20px;
-		font-family: 'Bellota Text', sans-serif;
-		filter: drop-shadow(3px 3px 5px rgba(0,0,0,.2));
-	}
-
-	footer { /* this should keep the footer at the bottom */
-		background-color: $green;
-		height: 300px;
-		margin: 0 auto;
-		padding-bottom: 20px;
+		font-family: $body;
 	}
 
 }
@@ -432,19 +341,19 @@
 	}
 
 	#sporrans-hero {
-      background-repeat: no-repeat;
-      background-position: center;
-      background-image: url('../images/hero_2_sporrans.jpg') !important;
-      height: 400px!important;
-      margin-top: 65px !important;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-image: url('../images/hero_2_sporrans.jpg') !important;
+		height: 400px!important;
+		margin-top: 65px !important;
 	}
 
 	.tartans-hero {
-      background-repeat: no-repeat;
-      background-position: center;
-      background-image: url('../images/hero_2_tartans.jpg') !important;
-      height: 400px!important;
-      margin-top: 65px !important;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-image: url('../images/hero_2_tartans.jpg') !important;
+		height: 400px!important;
+		margin-top: 65px !important;
 	}
 
 	#info-frost { /* this is the content over the hero */
@@ -455,7 +364,6 @@
 		justify-content: space-evenly;
 		margin: 50px 0 0 100px !important;
 	}
-
 
 	.index-featured {
 		width: 100%;
@@ -468,17 +376,16 @@
 		margin-bottom: 20px;
 		margin-top: 20px;
 		font-family: $body;
-		//filter: drop-shadow(3px 3px 5px rgba(0,0,0,.2));
 	}
 
-	.featured-btn {
+	.featured-btn { // index featured buttons
+		border: 1px solid $orange;
 		padding-top: 8px;
-		color: $white;
+		color: $orange;
 		display: inline-block;
 		height: 40px;
 		width: 125px;
 		font-size: 1em;
-		box-shadow: 0 2px 6px rgba(0,0,0,.3);
 		border-radius: 15px;
 		margin-bottom: 30px;
 	}
@@ -486,14 +393,14 @@
 	/* about */ 
 
 	#about-hero {
-      background-repeat: no-repeat;
-      background-position: center;
-      background-image: url('images/hero_1_about.jpg');
-      height: 300px;
-      margin-top: 5px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-image: url('images/hero_1_about.jpg');
+		height: 300px;
+		margin-top: 5px;
 	}
 
-	#about {
+	#about { // body of about
 		display: inline-block;
 		width: 60%;
 		font-size: 1.2em;
@@ -512,21 +419,6 @@
 		margin-top: 120px;
 	}
 
-	#about-button { /* the call to action button */
-		font-family: $body; 
-		display: inline-block;
-		width: 175px;
-		height: 75px;
-		padding-top: 27px;
-		color: $white;
-		text-align: center;
-		text-decoration: none;
-		font-size: 1.2em;
-		line-height: 1em;
-		border-radius: 15px;
-		margin-bottom: 30px;
-	}
-
 
 	/* highland wear */ 
 
@@ -542,7 +434,6 @@
 		margin-bottom: 20px;
 		margin-top: 20px;
 		font-family: $body;
-		//filter: drop-shadow(3px 3px 5px rgba(0,0,0,.2));
 	}
 
 	/* tartans */
@@ -607,14 +498,16 @@
 	}
 
 	#main-nav a:hover {
-	border-bottom: 0.1875em /* 3px */ solid $green ;
-	cursor: pointer;
-	-webkit-transition: all .2s ease-in-out;
-	-moz-transition: all .2s ease-in-out;
-	-o-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
+		font-weight: 700;
+		font-style: bold;
+		border-bottom: 0.1875em /* 3px */ solid $green ;
+		cursor: pointer;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		-o-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;
 	}
-	
+
     #button {
     	display: none;
     }
@@ -649,7 +542,6 @@
 		text-align: center;
 		font-size: 1em;
 	}
-
 
     #main-nav li {
     	margin-bottom: 0;
@@ -693,7 +585,6 @@
 	  position: absolute;
 	  background-color: $white;
 	  min-width: 160px;
-	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	  z-index: 100;
 	}
 
@@ -823,7 +714,6 @@
 		margin-bottom: 20px;
 		margin-top: 20px;
 		font-family: $body;
-		//filter: drop-shadow(3px 3px 5px rgba(0,0,0,.2));
 	}
 
 	.index-featured img {
@@ -996,14 +886,13 @@
 	   background: #000;
 	   color: $white;
 	   text-transform: uppercase;
-	   -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,.5);
-	   -moz-box-shadow: 3px 3px 5px rgba(0,0,0,.5);
-	   box-shadow: 3px 3px 5px rgba(0,0,0,.5);
 	}
 	.view a.info:hover {
-	   -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,.5);
-	   -moz-box-shadow: 3px 3px 5px rgba(0,0,0,.5);
-	   box-shadow: 3px 3px 5px rgba(0,0,0,.5);
+	   font-style: italic;
+	   		-webkit-transition: all .5s ease-in-out;
+		-moz-transition: all .5s ease-in-out;
+		-o-transition: all .5s ease-in-out;
+		transition: all .5s ease-in-out;
 	}
 
 	/* end hover effects */
@@ -1011,7 +900,7 @@
 	/* styling horizontal rule with before and after to insert text as headings and page breaks in one */
 
 	.hr {
-		font-family: buena-park-jf, serif;
+		font-family: $header;
 		font-size: 2.2em; 
 		margin: 40px auto;
 		text-align: center;
@@ -1023,7 +912,7 @@
 		content: "";
 		display: block;
 		width: 200px;
-		height: 2px;
+		height: 1px;
 		background: $black;
 		position: absolute;
 		left: 0;
@@ -1034,7 +923,7 @@
 		content: "";
 		display: block;
 		width: 200px;
-		height: 2px;
+		height: 1px;
 		background: $black;
 		position: absolute;
 		right: 0;
@@ -1148,7 +1037,6 @@
 		margin-bottom: 20px;
 		margin-top: 20px;
 		font-family: $body;
-		//filter: drop-shadow(3px 3px 5px rgba(0,0,0,.2));
 	}
 
 	#tartan-selector {
@@ -1165,10 +1053,6 @@
 	#tartan-selector img {
 		border-radius: 10px;
 	}
-
-	/* regimental */
-
-	/* instruments */
 	
 	/* about */
 
@@ -1194,7 +1078,7 @@
 		width: 175px;
 		height: 75px;
 		padding-top: 27px;
-		color: $white;
+		color: #fff!important;
 		text-align: center;
 		text-decoration: none;
 		font-size: 1.2em;
@@ -1219,18 +1103,16 @@
 	}
 
 	.info-frost-secondary h2 {
-	 	margin-left: 30px;
+	
 	 	font-family: $header;
 	 	font-size: 2.3em;
 	}
  
-	.info-frost-secondary h3 {
-		margin-left: 30px;
-	}
+
 
 	.info-frost-secondary p {
 		font-size: 1.2em; 
-		margin-left: 30px;
+		
 	}
 
 	/* footwear */
@@ -1268,18 +1150,6 @@
 		margin-top: 2em;
 		margin-bottom: 2em;
 		align-content: center;
-	}
-
-/* contact */
-
-	iframe {
-		width: 60% !important;
-		border-radius: 5%;
-		-webkit-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-		-moz-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-		-o-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-		box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-
 	}
 
 /* footer */

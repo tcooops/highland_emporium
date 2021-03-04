@@ -105,7 +105,6 @@ p {
 }
 
 a {
-	color: $black;
 	text-decoration: none; 
 	outline: 0;
 	transition: all .1s linear 0s;
@@ -131,44 +130,28 @@ ul li {
 	-webkit-filter: drop-shadow(3px 3px 5px rgba(0,0,0,.2));
 } */
 
-.generic-button {
-	font-family: $body; 
-	display: inline-block;
-	width: 200px;
-	height: 75px;
-	font-size: .9em;
-	padding-top: 27px;
-	color: $white;
-	text-align: center;
-	text-decoration: none;
-	line-height: 1em;
-	//box-shadow: 0 2px 6px rgba(0,0,0,.3);
-	border-radius: 15px;
-	margin-bottom: 30px;
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffaf4b+0,ff920a+100;Orange+3D+%231 */
-	background: #ffaf4b; /* Old browsers */
-	background: -moz-linear-gradient(top,  #ffaf4b 0%, #ff920a 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  #ffaf4b 0%,#ff920a 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  #ffaf4b 0%,#ff920a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a',GradientType=0 ); /* IE6-9 */
-	-webkit-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-	-moz-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-	-o-box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-	box-shadow: .5px 4px 8px .5px rgba(190, 190, 190, 0.4);
-}
-
-.generic-button:hover {
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff920a+0,ffaf4b+100 */
-	background: #ff920a; /* Old browsers */
-	background: -moz-linear-gradient(top,  #ff920a 0%, #ffaf4b 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  #ff920a 0%,#ffaf4b 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  #ff920a 0%,#ffaf4b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff920a', endColorstr='#ffaf4b',GradientType=0 ); /* IE6-9 */
-	-webkit-transition: all .5s ease-in-out !important;
-	-moz-transition: all .5s ease-in-out !important;
-	-o-transition: all .5s ease-in-out !important;
-	transition: all .5s ease-in-out !important;
+.index-button {
+	button {
+		margin-top: 1em;
+		border: none;
+		width: 100px;
+		height: 40px;
+		background-color: $orange;
+		color: white;
+		margin-bottom: 1em;
 	}
+	button:hover {
+		background-color: $white;
+		color: $orange;
+		border: 1px solid orange;
+		cursor: pointer;
+		-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		-o-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+	}
+}
 
 .main-container {
 	max-width: 120em; /* 1920px */
@@ -249,4 +232,12 @@ ul li {
 .index-featured img {
 	max-width: 300px;
 	background-color: $white;
+}
+
+.drpdwnarw {
+	padding: 5px;
+}
+
+.fa-sort-down{
+	margin-bottom: 3px;
 }
